@@ -5,6 +5,8 @@ mientras esperan su compra, mediante la reproducción de contenido multimedia (f
 
 # Diagramas
 
+como podemos observar en ambos diagramas, lo solicitado por la empresa es una aplicación que recoja elementos añadidos por los administradores, de los cuales no se requiere ninguna asignación de rol, y pueden trabajar con los elementos que son mostrados a los clientes, los cuales contienen el archivo que será mostrado y los detalles del mismo
+
 # Requisitos de usuario
 
 Recomendado mínimo 8gb de ram para un correcto funcionamiento del servidor de Django, cualquier procesador debería ser suficiente para mantener el servidor a pequeña escala, sin embargo si fuera a implementarse a una mayor escala se requeriría de procesadores mas potentes, y con mas núcleos
