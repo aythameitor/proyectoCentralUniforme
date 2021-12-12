@@ -4,7 +4,8 @@ Esta aplicación es el proyecto solicitado por la central uniforme, la cual requ
 mientras esperan su compra, mediante la reproducción de contenido multimedia (fotos, videos o enlaces a diferentes páginas)
 
 # Diagramas
-
+![alt text](imagenes/DiagramaER.jpg)
+![alt text](imagenes/DiagramaUML.jpg)
 como podemos observar en ambos diagramas, lo solicitado por la empresa es una aplicación que recoja elementos añadidos por los administradores, de los cuales no se requiere ninguna asignación de rol, y pueden trabajar con los elementos que son mostrados a los clientes, los cuales contienen el archivo que será mostrado y los detalles del mismo
 
 # Requisitos de usuario
@@ -12,7 +13,9 @@ como podemos observar en ambos diagramas, lo solicitado por la empresa es una ap
 Recomendado mínimo 8gb de ram para un correcto funcionamiento del servidor de Django, cualquier procesador debería ser suficiente para mantener el servidor a pequeña escala, sin embargo si fuera a implementarse a una mayor escala se requeriría de procesadores mas potentes, y con mas núcleos
 
 # Casos de usos
+![alt text](imagenes/Casosdeuso.JPG)
 
+Como está mostrado en el diagrama de casos de uso, los administradores tendrán acceso a todos los CRUDS que permitirán hacer cualquier operación básica en los elementos o las categorías, y los usuarios podrán ver estos elementos y acceder a los mismos
 # Funcionamiento del sistema
 
 La aplicación usa por un lado ionic y por otro django, por lo que necesitaremos tener instalado de antemano python y nodejs, además usaremos visual studio code para editar y manipular el código
